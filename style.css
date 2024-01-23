@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+.section{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.hex-color, .rgb-color{
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hex-color button, 
+.rgb-color button{
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.rgb-color{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(44, 62, 80);
+}
+
+.hex-color{
+    flex-direction: column;
+    gap: 30px;
+    background-color: #3498db;
+}
